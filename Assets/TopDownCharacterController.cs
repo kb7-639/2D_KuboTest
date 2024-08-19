@@ -54,13 +54,11 @@ namespace Cainos.PixelArtTopDown_Basic
 
             if (Input.GetKeyDown(KeyCode.Space) && GetComponent<SpriteRenderer>().flipX == true)
             {
-                Debug.Log("左向きの攻撃");
                 //Animationコンポーネントを取得し、トリガーををtrueにする
                 GetComponent<Animator>().SetTrigger("Attack_Left");
             }
             else if(Input.GetKeyDown(KeyCode.Space))
             {
-                Debug.Log("みぎ向きの攻撃");
                 //Animationコンポーネントを取得し、トリガーををtrueにする
                 GetComponent<Animator>().SetTrigger("Attack");
             }
@@ -77,7 +75,6 @@ namespace Cainos.PixelArtTopDown_Basic
             if (other.gameObject.tag == "Enemy")
             {
                 this.enemyCounter += 1;
-                Debug.Log("敵に衝突した" + enemyCounter);
             }
         }
     }

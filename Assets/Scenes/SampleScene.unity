@@ -954,6 +954,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2a06475707edef4f8d0cad149922c37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Bakkuhatsu: {fileID: 0}
+  FlipTime: 1.5
 --- !u!61 &86841661
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -10694,6 +10696,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2a06475707edef4f8d0cad149922c37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Bakkuhatsu: {fileID: 0}
+  FlipTime: 1.5
 --- !u!61 &384769688
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -15726,6 +15730,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2a06475707edef4f8d0cad149922c37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Bakkuhatsu: {fileID: 0}
+  FlipTime: 1.5
 --- !u!61 &832796804
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -16753,6 +16759,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2a06475707edef4f8d0cad149922c37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Bakkuhatsu: {fileID: 0}
+  FlipTime: 1.5
 --- !u!61 &891040163
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -19621,7 +19629,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 7
+  m_Constraints: 6
 --- !u!114 &1118522647
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -19634,6 +19642,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2a06475707edef4f8d0cad149922c37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Bakkuhatsu: {fileID: 8590280711899155630, guid: 7151dfaf716e31c45ad6c5259808b1d5,
+    type: 3}
+  FlipTime: 1.5
 --- !u!1001 &1120892446
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -34816,6 +34827,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2a06475707edef4f8d0cad149922c37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Bakkuhatsu: {fileID: 0}
+  FlipTime: 1.5
 --- !u!61 &2045069008
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -35707,6 +35720,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c2a06475707edef4f8d0cad149922c37, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Bakkuhatsu: {fileID: 0}
+  FlipTime: 1.5
 --- !u!61 &2102230003
 BoxCollider2D:
   m_ObjectHideFlags: 0
