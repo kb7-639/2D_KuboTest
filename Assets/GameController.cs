@@ -14,12 +14,6 @@ public class GameController : MonoBehaviour
 
     //ミッション自体のUI
     public GameObject MissionUI;
-
-    //ミッションクリアニメーション
-    public GameObject MissionClearAnim;
-
-    //ボス出現アニメーション
-    public GameObject BossBattle;
     
 
     //敵の撃破数のカウンター
